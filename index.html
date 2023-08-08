@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <style>
+        @media screen and (max-width:814px){
+            #pi{
+                transform: rotate(90deg);
+            }
+        
+        }
+    body{
+        margin:0px;
+        padding:0px;
+        background-color: black;
+        display: flex;
+        
+        justify-content: center;
+        background-repeat: no-repeat;
+    }
+    #pi{
+        flex-shrink: 1;
+        position:absolute;
+        bottom:20%;
+
+    }
+    #bg{
+        position:relative;
+        top:0px;
+        background-size: fill;
+        height: 200px;
+    }
+    </style>
+</head>
+<body>
+    <h2 class="h2">Virtual Piano</h2>
+    <img src="piano-keyboard.png"  id= "pi" usemap="#workmap">
+
+
+<map name="workmap">
+    <area shape="rect" coords="51,193,15,127" href="#" onclick="myFunctionA()">
+    <area  shape="rect" href="#" coords="51,194,89,128"  onclick="myFunctionB()">
+    <area  shape="rect" href="#" coords="129,193,162,127"  onclick="myFunctionC()">
+    <area  shape="rect" href="#" coords="164,192,202,126"  onclick="myFunctionD()">
+    <area  shape="rect" href="#" coords="200,190,236,126" onclick="myFunctionE()" >
+    <area  shape="rect" href="#" coords="238,192,276,126"  onclick="myFunctionF()">
+    <area  shape="rect" href="#" coords="276,191,312,126"  onclick="myFunctionG()">
+    <area  shape="rect" href="#" coords="313,192,350,127"  onclick="myFunctionH()">
+    <area  shape="rect" href="#" coords="350,193,388,126"  onclick="myFunctionI()">
+    <area  shape="rect" href="#" coords="388,192,424,126"  onclick="myFunctionJ()">
+    <area  shape="rect" href="#" coords="424,191,462,127" onclick="myFunctionK()" >
+    <area  shape="rect" href="#" coords="463,191,500,129" onclick="myFunctionL()" >
+    <area  shape="rect" href="#" coords="502,192,537,125" onclick="myFunctionM()" >
+    <area  shape="rect" href="#" coords="576,127,537,194" onclick="myFunctionN()" >
+    <area  shape="rect" href="#" coords="576,191,612,127" onclick="myFunctionO()" >
+    <area  shape="rect" href="#" coords="651,191,614,125" onclick="myFunctionP()" >
+    <area  shape="rect" href="#" coords="650,193,686,127" onclick="myFunctionQ()" >
+    <area  shape="rect" href="#" coords="687,191,726,127" onclick="myFunctionR()" >
+    <area  shape="rect" href="#" coords="725,193,764,127" onclick="myFunctionS()" >
+    <area  shape="rect" href="#" coords="764,192,800,124" onclick="myFunctionT()" >
+  </map>
+  
+
+<script>
+    
+   function myFunctionA() {
+    var audio1=new Audio("/scale-a6-106130.mp3");
+    audio1.play();
+
+}
+function myFunctionB() {
+    var audio1=new Audio("/scale-c6-106131.mp3");
+    audio1.play();
+}
+function myFunctionC() {
+  var audio1=new Audio("/scale-c7-106132.mp3");
+    audio1.play();
+}
+function myFunctionD() {
+  var audio1=new Audio("/scale-d6-106129.mp3");
+    audio1.play();
+}
+function myFunctionE() {
+  var audio1=new Audio("/scale-e6-14577.mp3");
+    audio1.play();
+}
+function myFunctionF() {
+  var audio1=new Audio("/scale-f6-106128.mp3");
+    audio1.play();
+}
+function myFunctionG() {
+  var audio1=new Audio("/scale-g6-89174.mp3");
+    audio1.play();
+}
+function myFunctionH() {
+  var audio1=new Audio("/scale-h6-89173.mp3");
+    audio1.play();
+}
+function myFunctionI() {
+  var audio1=new Audio("/scale-a6-106130.mp3");
+    audio1.play();
+}
+function myFunctionJ() {
+  var audio1=new Audio("/scale-g6-89174.mp3");
+    audio1.play();
+}
+function myFunctionK() {
+  var audio1=new Audio("/diamond-slot-35963.mp3");
+    audio1.play();
+}
+function myFunctionL() {
+  var audio1=new Audio("/diamond-slot-35963.mp3");
+    audio1.play();
+}
+function myFunctionM() {
+  var audio1=new Audio("/scale-a6-106130.mp3");
+    audio1.play();
+}
+function myFunctionN() {
+  var audio1=new Audio("/scale-d6-106129.mp3");
+    audio1.play();
+}
+function myFunctionO() {
+  var audio1=new Audio("/scale-e6-14577.mp3");
+    audio1.play();
+}
+function myFunctionP() {
+  var audio1=new Audio("/scale-c7-106132.mp3");
+    audio1.play();
+}
+function myFunctionQ() {
+  var audio1=new Audio("/sophie-szechaun-2015-diva-deep-dreamy-driven-doctor-diamond-vox-d-104162.mp3");
+    audio1.play();
+}
+function myFunctionR() {
+  var audio1=new Audio("/scale-d6-106129.mp3");
+    audio1.play();
+}
+function myFunctionS() {
+  var audio1=new Audio("/scale-h6-89173.mp3");
+    audio1.play();
+}
+function myFunctionT() {
+  var audio1=new Audio("/scale-a6-106130.mp3");
+    audio1.play();
+}
+function myFunctionU() {
+  var audio1=new Audio("/scale-f6-106128.mp3");
+    audio1.play();
+}
+
+   
+</script>
+</body>
+</html>
